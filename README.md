@@ -6,7 +6,7 @@ My Exam Study Notes for the 70-532 Exam based off of the requirements on the exa
 
 **Create and Manage Azure Resource Manager Virtual Machines (20-25%)**
 - Deploy workloads on Azure Resource Manager (ARM) virtual machines (VMs)
-https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-overview 
+https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-overview
 
 - Identify workloads that can and cannot be deployed; run workloads including Microsoft and Linux; create and provision VMs, including custom VM images; deploy workloads using Terraform
 Windows: https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/virtual-machines-windows/
