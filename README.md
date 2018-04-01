@@ -223,15 +223,58 @@ Read data; change data; set metadata on a storage container; store data using bl
       
 **Implement Azure Cosmos DB**
    -  Choose a Cosmos DB API surface; create Cosmo DB API databases and collections; query documents; run Cosmos DB queries; create Graph API databases; execute GraphDB queries; implement MongoDB database; manage scaling of Cosmos DB, including managing partitioning, consistency, and RU/m; manage multiple regions; implement stored procedures; implement JavaScript within Cosmos DB; access Cosmos DB from REST interface; manage Cosmos DB security
-      - TODO
+   
+      - Azure Cosmos DB Documentation: https://docs.microsoft.com/en-us/azure/cosmos-db/
+      - Azure Cosmos DB: REST API Reference: https://docs.microsoft.com/en-gb/rest/api/cosmos-db/index
+      - Querying Azure Cosmos DB resources using the REST API: https://docs.microsoft.com/en-gb/rest/api/cosmos-db/querying-cosmosdb-resources-using-the-rest-api
+      - Getting started with Azure Cosmos DB: Graph API: https://azure.microsoft.com/en-gb/resources/samples/azure-cosmos-db-graph-dotnet-getting-started/
+      - Introduction to Azure Cosmos DB: Graph API: https://docs.microsoft.com/en-us/azure/cosmos-db/graph-introduction
+      - Azure Cosmos DB: Develop with the Graph API in .NET: https://docs.microsoft.com/en-us/azure/cosmos-db/tutorial-develop-graph-dotnet
+      - Testing the Cosmos DB graph database: https://bricaud.github.io/personal-blog/azure-and-cosmos-db-graph/
+      - Introduction to Azure Cosmos DB: MongoDB API: https://docs.microsoft.com/en-us/azure/cosmos-db/mongodb-introduction
+      - Build an Azure Cosmos DB: API for MongoDB app using Node.js: https://docs.microsoft.com/en-us/azure/cosmos-db/mongodb-samples
+      - Connect a MongoDB application to Azure Cosmos DB: https://docs.microsoft.com/en-us/azure/cosmos-db/connect-mongodb-account
+      - Partition and scale in Azure Cosmos DB: https://docs.microsoft.com/en-us/azure/cosmos-db/partition-data
+      - Performance and scale testing with Azure Cosmos DB: https://docs.microsoft.com/en-us/azure/cosmos-db/performance-testing
+      - Partitioning in Azure Cosmos DB using the SQL API: https://docs.microsoft.com/en-us/azure/cosmos-db/sql-api-partition-data
+      - How to distribute data globally with Azure Cosmos DB: https://docs.microsoft.com/en-us/azure/cosmos-db/distribute-data-globally
+      - Automatic regional failover for business continuity in Azure Cosmos DB: https://docs.microsoft.com/en-us/azure/cosmos-db/regional-failover
+      - How to setup Azure Cosmos DB global distribution using the SQL API: https://docs.microsoft.com/en-us/azure/cosmos-db/tutorial-global-distribution-sql-api
+      - Azure Cosmos DB server-side programming: Stored procedures, database triggers, and UDFs: https://docs.microsoft.com/en-us/azure/cosmos-db/programming
+      - Stored Procedures In Azure Cosmos DB - https://www.c-sharpcorner.com/article/stored-procedures-in-azure-cosmos-db/
+      - Stored Procedures: https://docs.microsoft.com/en-gb/rest/api/cosmos-db/stored-procedures
+      - SQL Azure Tutorials Blog: http://sqlazuretutorials.com/wordpress/sql-stored-procedures-in-windows-azure-sql-database/
+      - Azure Cosmos DB database security: https://docs.microsoft.com/en-us/azure/cosmos-db/database-security
+      - Securing access to Azure Cosmos DB data: https://docs.microsoft.com/en-us/azure/cosmos-db/secure-access-to-data
+      - Azure Cosmos DB firewall support: https://docs.microsoft.com/en-us/azure/cosmos-db/firewall-support
+      
+
 
 **Implement Redis caching**
    -  Choose a cache tier; implement data persistence; implement security and network isolation; tune cluster performance; integrate Redis caching with ASP.NET session and cache providers; implement Redis data types and operations
-      - TODO
+
+      - Redis Cache Documentation: https://docs.microsoft.com/en-us/azure/redis-cache/
+      - How to Use Azure Redis Cache: https://docs.microsoft.com/en-us/azure/redis-cache/cache-dotnet-how-to-use-azure-redis-cache
+      - Redis Cache: https://azure.microsoft.com/en-gb/services/cache/
+      - Introduction to the Azure Redis Cache Premium tier: https://docs.microsoft.com/en-us/azure/redis-cache/cache-premium-tier-intro
+      - How to configure data persistence for a Premium Azure Redis Cache: https://docs.microsoft.com/en-us/azure/redis-cache/cache-how-to-premium-persistence
+      - Import and Export data in Azure Redis Cache: https://docs.microsoft.com/en-us/azure/redis-cache/cache-how-to-import-export-data
+      - Azure Redis Security Caching: https://azure.microsoft.com/en-gb/resources/videos/azure-redis-security-cacheing/
+      - Increase performance through Redis Cluster in Azure Redis Cache: https://azure.microsoft.com/en-gb/resources/videos/increase-performance-through-redis-cluster-in-azure-redis-cache/
+      - ASP.NET Session State Provider for Azure Redis Cache: https://docs.microsoft.com/en-us/azure/redis-cache/cache-aspnet-session-state-provider
+      - Azure Redis Cache samples: https://docs.microsoft.com/en-us/azure/redis-cache/cache-redis-samples
 
 **Implement Azure Search**
    -  Create a service index; add data; search an index; handle search results
-      - TODO
+      - Create Index (Azure Search Service REST API): https://docs.microsoft.com/en-us/rest/api/searchservice/create-index
+      - Create an Azure Search service in the portal: https://docs.microsoft.com/en-us/azure/search/search-create-service-portal
+      - Create an Azure Search index using the .NET SDK - https://docs.microsoft.com/en-us/azure/search/search-create-index-dotnet
+      - Create, query, and filter an Azure Search index in the portal: https://docs.microsoft.com/en-us/azure/search/search-get-started-portal
+      - Indexers in Azure Search: https://docs.microsoft.com/en-us/azure/search/search-indexer-overview
+      - How to page search results in Azure Search: https://docs.microsoft.com/en-us/azure/search/search-pagination-page-layout
+      - Queries in Azure Search: https://docs.microsoft.com/en-us/azure/search/search-query-overview
+      - Service limits in Azure Search: https://docs.microsoft.com/en-us/azure/search/search-limits-quotas-capacity
+      - Add scoring profiles to a search index (Azure Search Service REST API) - https://docs.microsoft.com/en-us/rest/api/searchservice/add-scoring-profiles-to-a-search-index
 
 **Manage Identity, Application, and Network Services (10-15%)**
 
