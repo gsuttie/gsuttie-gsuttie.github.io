@@ -185,6 +185,7 @@ Read data; change data; set metadata on a storage container; store data using bl
 
 **Implement Azure SQL Databases**
    - Choose the appropriate database tier and performance level; configure and perform point in time recovery; enable geo-replication; import and export data and schema; scale Azure SQL databases; manage elastic pools, including DTUs and eDTUs; manage limits and resource governor; implement Azure SQL Data Sync; implement graph database functionality in Azure SQL; design multi-tenant applications; secure and encrypt data; manage data integrity; enable metrics and diagnostics logs for monitoring; use adaptive query processing to improve query performance; implement sharding and elastic tools; implement SQL Server Stretch Database
+   
       - Azure SQL Database Documentation: https://docs.microsoft.com/en-us/azure/sql-database/
       - Choose a cloud SQL Server option: Azure SQL (PaaS) Database or SQL Server on Azure VMs (IaaS): https://docs.microsoft.com/en-us/azure/sql-database/sql-database-paas-vs-sql-server-iaas
       - Azure SQL Database Point in Time Restore: https://azure.microsoft.com/en-gb/blog/azure-sql-database-point-in-time-restore/
@@ -280,51 +281,117 @@ Read data; change data; set metadata on a storage container; store data using bl
 
    -  Integrate an app with Azure Active Directory (AAD)
 Develop apps that use WS-federation, OAuth, and SAML-P endpoints; query the directory by using Microsoft Graph API, MFA and MFA API
-      - TODO
+      - Integrating applications with Azure Active Directory: https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-integrating-applications
+      - Integrating Azure Active Directory with applications getting started guide: https://docs.microsoft.com/en-us/azure/active-directory/active-directory-integrating-applications-getting-started
+      - Azure Active Directory for developers: https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-developers-guide
+      - Configure multi-factor authentication for SQL Server Management Studio and Azure AD: https://docs.microsoft.com/en-us/azure/sql-database/sql-database-ssms-mfa-authentication-configure
+      - Multi-Factor Authentication for Azure AD: https://azure.microsoft.com/en-gb/resources/videos/multi-factor-authentication-for-azure-ad/
+      - Authentication Scenarios for Azure AD: https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-authentication-scenarios
+      - Azure Active Directory Authentication Protocols: https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-authentication-protocols
 
    -  Design and implement a messaging strategy
 Develop and scale messaging solutions using service bus queues, topics, relays, event hubs, Event Grid, and notification hubs; monitor service bus queues, topics, relays, event hubs and notification hubs; determine when to use Event Hubs, Service Bus, IoT Hub, Stream Analytics, and Notification Hubs; implement Azure Event Grid
-      - TODO
+      - Service Bus queues, topics, and subscriptions: https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-queues-topics-subscriptions
+      - Azure Service Bus: https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-fundamentals-hybrid-solutions
+      - Events, Data Points, and Messages - Choosing the right Azure messaging service for your data: https://azure.microsoft.com/en-gb/blog/events-data-points-and-messages-choosing-the-right-azure-messaging-service-for-your-data/
+      - An introduction to Azure Event Grid: https://docs.microsoft.com/en-us/azure/event-grid/overview
+      - Azure Event Grid Documentation: https://docs.microsoft.com/en-us/azure/event-grid/
+      - A Tour of Azure Messaging Services (Queues, Event Grid, IoT Hub, and More): https://buildazure.com/2017/09/07/a-tour-of-azure-messaging-services-queues-event-grid-iot-hub-and-more/
+      
 
    -  Develop apps that use AAD B2C and AAD B2B
 Design and implement .NET MVC, Web API, and Windows Desktop apps that leverage social identity provider authentication, including Microsoft account, Facebook, Google+, Amazon, and LinkedIn; leverage Azure AD B2B to design and implement applications that support partner-managed identities, enforce multi-factor authentication
-      - TODO
       
+      -  Compare B2B collaboration and B2C in Azure Active Directory: https://docs.microsoft.com/en-us/azure/active-directory/active-directory-b2b-compare-b2c
+      - Azure Active Directory B2C: Sign in by using Azure AD accounts: https://docs.microsoft.com/en-us/azure/active-directory-b2c/active-directory-b2c-setup-aad-custom
+      - Azure AD B2C: Frequently asked questions (FAQ): https://docs.microsoft.com/en-us/azure/active-directory-b2c/active-directory-b2c-faqs
+      - Keep credentials out of code: Introducing Azure AD Managed Service Identity: https://azure.microsoft.com/en-gb/blog/keep-credentials-out-of-code-introducing-azure-ad-managed-service-identity/
+      - Configure Azure Multi-Factor Authentication settings: https://docs.microsoft.com/en-us/azure/multi-factor-authentication/multi-factor-authentication-whats-next
+      - How to require MFA in Azure AD Privileged Identity Management: https://docs.microsoft.com/en-us/azure/active-directory/active-directory-privileged-identity-management-how-to-require-mfa
+      - What is Azure Multi-Factor Authentication?: https://docs.microsoft.com/en-us/azure/multi-factor-authentication/multi-factor-authentication
       
    -  Manage secrets using Azure Key Vault
 Configure Azure Key Vault; manage access, including tenants; implement HSM protected keys; manage service limits; implement logging; implement key rotation; store and retrieve app secrets including connection strings, passwords, and cryptographic keys; implement Azure Managed Service Identity
-      - TODO
+      - Key Vault Documentation: https://docs.microsoft.com/en-us/azure/key-vault/
+      - Get started with Azure Key Vault: https://docs.microsoft.com/en-us/azure/key-vault/key-vault-get-started
+      - Azure Key Vault Developer's Guide: https://docs.microsoft.com/en-us/azure/key-vault/key-vault-developers-guide
+      - Use Azure Key Vault from a Web Application: https://docs.microsoft.com/en-us/azure/key-vault/key-vault-use-from-web-application
+      - Managed Service Identity (MSI) for Azure resources: https://docs.microsoft.com/en-us/azure/active-directory/managed-service-identity/overview
+      - Use Key Vault from App Service with Managed Service Identity: https://azure.microsoft.com/en-gb/resources/samples/app-service-msi-keyvault-dotnet/
+      - Use a Windows VM Managed Service Identity (MSI) to access Azure Key Vault - https://docs.microsoft.com/en-us/azure/active-directory/managed-service-identity/tutorial-windows-vm-access-nonaad
 
 **Design and Implement Azure Compute, Web, and Mobile Services (35-40%)**
    - Design Azure App Service Web Apps
 Define and manage App Service plans; configure Web Apps settings, certificates, and custom domains; manage Web Apps by using the API, Azure PowerShell, Azure Cloud Shell, and Xplat-CLI; implement diagnostics, monitoring, and analytics; design and configure Web Apps for scale and resilience; use Azure Managed Service Identity to access other Azure AD-protected resources including Azure Key Vault
-      - TODO
+      - Manage an App Service plan in Azure: https://docs.microsoft.com/en-us/azure/app-service/app-service-plan-manage
+      - Azure App Service plan overview: https://docs.microsoft.com/en-us/azure/app-service/azure-web-sites-web-hosting-plans-in-depth-overview
+      - Designing resilient applications for Azure: https://docs.microsoft.com/en-us/azure/architecture/resiliency/
+      - Scale up an app in Azure: https://docs.microsoft.com/en-us/azure/app-service/web-sites-scale
+      - How to use Azure Managed Service Identity (public preview) in App Service and Azure Functions - https://docs.microsoft.com/en-us/azure/app-service/app-service-managed-service-identity
 
    -  Implement Azure Functions and WebJobs
 Create Azure Functions; implement a webhook Function; create an event processing Function; implement an Azure-connected Function; design and implement a custom binding; debug a Function; integrate a Function with storage; implement and configure proxies; integrate with App Service plan; implement Azure Event Grid-based serverless applications
-      - TODO
 
+      - Azure Functions Documentation - https://docs.microsoft.com/en-us/azure/azure-functions/
+      - Azure Functions Tools for Visual Studio: https://docs.microsoft.com/en-us/azure/azure-functions/functions-develop-vs
+      - Create a function in Azure that is triggered by a timer - https://docs.microsoft.com/en-us/azure/azure-functions/functions-create-scheduled-function
+      - Azure Functions HTTP and webhook bindings: https://docs.microsoft.com/en-us/azure/azure-functions/functions-bindings-http-webhook
+      - Create a function triggered by a generic webhook: https://docs.microsoft.com/en-us/azure/azure-functions/functions-create-generic-webhook-triggered-function
+      - Create a Web Hook or API Azure Function: https://azure.microsoft.com/en-gb/resources/videos/create-a-web-hook-or-api-azure-function/
+      - Starting an Azure Automation runbook with a webhook: https://docs.microsoft.com/en-us/azure/automation/automation-webhooks
+      - Introducing Azure Event Grid – an event service for modern applications: https://azure.microsoft.com/en-gb/blog/introducing-azure-event-grid-an-event-service-for-modern-applications/
+  
 
    -  Implement API Management
 Create managed APIs; configure API Management policies; protect APIs with rate limits; add caching to improve performance; monitor APIs; customise the Developer portal; add authentication and authorisation to applications by using API Management; configure API versions by using API Management; implement git-based configuration using API Management
-      - TODO
+
+      - API Management documentation: https://docs.microsoft.com/en-us/azure/api-management/
+      - What is API Management?: https://docs.microsoft.com/en-us/azure/api-management/api-management-key-concepts
+      - Import and publish your first API: https://docs.microsoft.com/en-us/azure/api-management/import-and-publish
+      - API Management policies: https://docs.microsoft.com/en-us/azure/api-management/api-management-policies
+      - Policies in Azure API Management: https://docs.microsoft.com/en-us/azure/api-management/api-management-howto-policies
+      - How to set or edit Azure API Management policies: https://docs.microsoft.com/en-us/azure/api-management/set-edit-policies
+      - Advanced request throttling with Azure API Management: https://docs.microsoft.com/en-us/azure/api-management/api-management-sample-flexible-throttling
+      - API Management: Quota versus Rate Limits: https://blogs.msdn.microsoft.com/sanket/2017/11/02/api-management-quota-versus-rate-limits/
+      - How to customize the Azure API Management developer portal using templates: https://docs.microsoft.com/en-us/azure/api-management/api-management-developer-portal-templates
+      - Customize developer portal pages using Azure API Management templates: https://azure.microsoft.com/en-gb/blog/customize-your-developer-portal-pages-with-azure-api-management-templates/
+      - API Versioning with Azure API Management - https://blogs.msdn.microsoft.com/apimanagement/2017/09/13/api-versioning-with-azure-api-management/
+      - Versions & Revisions - https://blogs.msdn.microsoft.com/apimanagement/2017/09/14/versions-revisions/
+      
       
    -  Design Azure App Service API Apps
 Create and deploy API Apps; automate API discovery by using Swagger and Swashbuckle; use Swagger API metadata to generate client code for an API app; monitor API Apps
-      - TODO
-
+      - Host a RESTful API with CORS in Azure App Service: https://docs.microsoft.com/en-us/azure/app-service/app-service-web-tutorial-rest-api
+      - Working With Azure API Apps: https://www.c-sharpcorner.com/article/working-with-azure-api-apps/
+      - Inside Web APIs with Swagger and API Managment with Brady Gaster: https://azure.microsoft.com/en-gb/resources/videos/inside-web-apis-with-swagger-and-api-managment-with-brady-gaster/
+      - Announcing Azure Functions OpenAPI (Swagger) support preview: https://blogs.msdn.microsoft.com/appserviceteam/2017/03/30/announcing-functions-swagger-support/
+      - Generating Swagger description metadata from your ASP.NET Core Web APIs with Swashbuckle - https://blogs.msdn.microsoft.com/cesardelatorre/2016/12/05/generating-swagger-description-metadata-from-your-asp-net-core-web-apis-with-swashbuckle/
+      - How to: Monitor Apps in Azure App Service: https://docs.microsoft.com/en-us/azure/app-service/web-sites-monitor
+      - Azure Monitoring REST API walkthrough: https://docs.microsoft.com/en-us/azure/monitoring-and-diagnostics/monitoring-rest-api-walkthrough
+      - Monitoring Azure applications and resources: https://docs.microsoft.com/en-us/azure/monitoring-and-diagnostics/monitoring-overview
 
    -  Develop Azure Logic Apps
 Create a Logic App connecting SaaS services; create a Logic App with B2B capabilities; create a Logic App with XML capabilities; trigger a Logic App from another app; create custom and long-running actions; monitor Logic Apps; integrate a logic app with a function; access on-premises data; implement Logic Apps with Event Grid
-      - TODO
+      - Azure Logic Apps Documentation: https://docs.microsoft.com/en-us/azure/logic-apps/
+      - Common scenarios, examples, tutorials, and walkthroughs for Azure Logic Apps: https://docs.microsoft.com/en-us/azure/logic-apps/logic-apps-examples-and-scenarios
+      - Introducing Azure Logic Apps: https://azure.microsoft.com/en-gb/resources/videos/introducing-azure-logic-apps/
       
    -  Develop Azure App Service Mobile Apps
 Create a Mobile App; add offline sync to a Mobile App; add authentication to a Mobile App; add push notifications to a Mobile App
-      - TODO
+      - About Mobile Apps in Azure App Service: https://docs.microsoft.com/en-us/azure/app-service-mobile/app-service-mobile-value-prop
+      - Mobile Apps Documentation: https://docs.microsoft.com/en-us/azure/app-service-mobile/
+      - Easy Push Notifications with Azure App Service: https://azure.microsoft.com/en-gb/resources/videos/easy-push-notifications-with-azure-app-service/
 
    - Design and implement Azure Service Fabric Applications
 Create a Service Fabric application; build an Actors-based service; add a web front-end to a Service Fabric application; monitor and diagnose services; migrate apps from cloud services; create, secure, upgrade, and scale Service Fabric Cluster in Azure; scale a Service Fabric app; deploy an application to a Container
-      - TODO
+      - Overview of Azure Service Fabric: https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-overview
+      - So you want to learn about Service Fabric?: https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-content-roadmap
+      - Introduction to Service Fabric Reliable Actors: https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-reliable-actors-introduction
+      - Getting started with Reliable Actors: https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-reliable-actors-get-started
+      - Azure Service Fabric and the Actor Model with Mark Fussell: https://azure.microsoft.com/en-gb/resources/videos/azure-service-fabric-and-the-actor-model-with-mark-fussell/
+      - Create a Service Fabric cluster in Azure using the Azure portal: https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-cluster-creation-via-portal
+      - Create a standalone cluster running on Windows Server: https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-cluster-creation-for-windows-server
+      
       
  -  Design and implement Third Party Platform as a Service (PaaS)
 Design and implement Third Party Platform as a Service (PaaS)": Implement Cloud Foundry; implement OpenShift; provision applications by using Azure Quickstart Templates; build applications that leverage Azure Marketplace solutions and services; implement solutions that use Azure Bot Service; create Azure Managed Applications; implement Docker Swarm applications; implement Kubernetes applications
