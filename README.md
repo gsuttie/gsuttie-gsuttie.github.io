@@ -184,44 +184,79 @@ Read data; change data; set metadata on a storage container; store data using bl
       -  Host a RESTful API with CORS in Azure App Service: https://docs.microsoft.com/en-us/azure/app-service/app-service-web-tutorial-rest-api
 
 **Implement Azure SQL Databases**
-Choose the appropriate database tier and performance level; configure and perform point in time recovery; enable geo-replication; import and export data and schema; scale Azure SQL databases; manage elastic pools, including DTUs and eDTUs; manage limits and resource governor; implement Azure SQL Data Sync; implement graph database functionality in Azure SQL; design multi-tenant applications; secure and encrypt data; manage data integrity; enable metrics and diagnostics logs for monitoring; use adaptive query processing to improve query performance; implement sharding and elastic tools; implement SQL Server Stretch Database
+   - Choose the appropriate database tier and performance level; configure and perform point in time recovery; enable geo-replication; import and export data and schema; scale Azure SQL databases; manage elastic pools, including DTUs and eDTUs; manage limits and resource governor; implement Azure SQL Data Sync; implement graph database functionality in Azure SQL; design multi-tenant applications; secure and encrypt data; manage data integrity; enable metrics and diagnostics logs for monitoring; use adaptive query processing to improve query performance; implement sharding and elastic tools; implement SQL Server Stretch Database
+      - TODO
 
 **Implement Azure Cosmos DB**
-Choose a Cosmos DB API surface; create Cosmo DB API databases and collections; query documents; run Cosmos DB queries; create Graph API databases; execute GraphDB queries; implement MongoDB database; manage scaling of Cosmos DB, including managing partitioning, consistency, and RU/m; manage multiple regions; implement stored procedures; implement JavaScript within Cosmos DB; access Cosmos DB from REST interface; manage Cosmos DB security
+   -  Choose a Cosmos DB API surface; create Cosmo DB API databases and collections; query documents; run Cosmos DB queries; create Graph API databases; execute GraphDB queries; implement MongoDB database; manage scaling of Cosmos DB, including managing partitioning, consistency, and RU/m; manage multiple regions; implement stored procedures; implement JavaScript within Cosmos DB; access Cosmos DB from REST interface; manage Cosmos DB security
+      - TODO
 
 **Implement Redis caching**
-Choose a cache tier; implement data persistence; implement security and network isolation; tune cluster performance; integrate Redis caching with ASP.NET session and cache providers; implement Redis data types and operations
+   -  Choose a cache tier; implement data persistence; implement security and network isolation; tune cluster performance; integrate Redis caching with ASP.NET session and cache providers; implement Redis data types and operations
+      - TODO
 
 **Implement Azure Search**
-Create a service index; add data; search an index; handle search results
-
+   -  Create a service index; add data; search an index; handle search results
+      - TODO
 
 **Manage Identity, Application, and Network Services (10-15%)**
 
-Integrate an app with Azure Active Directory (AAD)
+   -  Integrate an app with Azure Active Directory (AAD)
 Develop apps that use WS-federation, OAuth, and SAML-P endpoints; query the directory by using Microsoft Graph API, MFA and MFA API
-Design and implement a messaging strategy
+      - TODO
+
+   -  Design and implement a messaging strategy
 Develop and scale messaging solutions using service bus queues, topics, relays, event hubs, Event Grid, and notification hubs; monitor service bus queues, topics, relays, event hubs and notification hubs; determine when to use Event Hubs, Service Bus, IoT Hub, Stream Analytics, and Notification Hubs; implement Azure Event Grid
-Develop apps that use AAD B2C and AAD B2B
+      - TODO
+
+   -  Develop apps that use AAD B2C and AAD B2B
 Design and implement .NET MVC, Web API, and Windows Desktop apps that leverage social identity provider authentication, including Microsoft account, Facebook, Google+, Amazon, and LinkedIn; leverage Azure AD B2B to design and implement applications that support partner-managed identities, enforce multi-factor authentication
-Manage secrets using Azure Key Vault
+      - TODO
+      
+      
+   -  Manage secrets using Azure Key Vault
 Configure Azure Key Vault; manage access, including tenants; implement HSM protected keys; manage service limits; implement logging; implement key rotation; store and retrieve app secrets including connection strings, passwords, and cryptographic keys; implement Azure Managed Service Identity
-Design and Implement Azure Compute, Web, and Mobile Services (35-40%)
-Design Azure App Service Web Apps
+      - TODO
+
+**Design and Implement Azure Compute, Web, and Mobile Services (35-40%)**
+   - Design Azure App Service Web Apps
 Define and manage App Service plans; configure Web Apps settings, certificates, and custom domains; manage Web Apps by using the API, Azure PowerShell, Azure Cloud Shell, and Xplat-CLI; implement diagnostics, monitoring, and analytics; design and configure Web Apps for scale and resilience; use Azure Managed Service Identity to access other Azure AD-protected resources including Azure Key Vault
-Implement Azure Functions and WebJobs
+      - TODO
+
+   -  Implement Azure Functions and WebJobs
 Create Azure Functions; implement a webhook Function; create an event processing Function; implement an Azure-connected Function; design and implement a custom binding; debug a Function; integrate a Function with storage; implement and configure proxies; integrate with App Service plan; implement Azure Event Grid-based serverless applications
-Implement API Management
+      - TODO
+
+
+   -  Implement API Management
 Create managed APIs; configure API Management policies; protect APIs with rate limits; add caching to improve performance; monitor APIs; customise the Developer portal; add authentication and authorisation to applications by using API Management; configure API versions by using API Management; implement git-based configuration using API Management
-Design Azure App Service API Apps
+      - TODO
+      
+   -  Design Azure App Service API Apps
 Create and deploy API Apps; automate API discovery by using Swagger and Swashbuckle; use Swagger API metadata to generate client code for an API app; monitor API Apps
-Develop Azure Logic Apps
+      - TODO
+
+
+   -  Develop Azure Logic Apps
 Create a Logic App connecting SaaS services; create a Logic App with B2B capabilities; create a Logic App with XML capabilities; trigger a Logic App from another app; create custom and long-running actions; monitor Logic Apps; integrate a logic app with a function; access on-premises data; implement Logic Apps with Event Grid
-Develop Azure App Service Mobile Apps
+      - TODO
+      
+   -  Develop Azure App Service Mobile Apps
 Create a Mobile App; add offline sync to a Mobile App; add authentication to a Mobile App; add push notifications to a Mobile App
-Design and implement Azure Service Fabric Applications
+      - TODO
+
+   - Design and implement Azure Service Fabric Applications
 Create a Service Fabric application; build an Actors-based service; add a web front-end to a Service Fabric application; monitor and diagnose services; migrate apps from cloud services; create, secure, upgrade, and scale Service Fabric Cluster in Azure; scale a Service Fabric app; deploy an application to a Container
-Design and implement Third Party Platform as a Service (PaaS)
+      - TODO
+      
+ -  Design and implement Third Party Platform as a Service (PaaS)
 Design and implement Third Party Platform as a Service (PaaS)": Implement Cloud Foundry; implement OpenShift; provision applications by using Azure Quickstart Templates; build applications that leverage Azure Marketplace solutions and services; implement solutions that use Azure Bot Service; create Azure Managed Applications; implement Docker Swarm applications; implement Kubernetes applications
-Design and Implement DevOps
+      - TODO
+
+   - Design and Implement DevOps
 Instrument an application with telemetry; discover application performance issues by using Application Insights; deploy Visual Studio Team Services with Continuous integration (CI) and Continuous development (CD); deploy CI/CD with third party platform tools (Jenkins, GitHub, Chef, Puppet; TeamCity); implement mobile DevOps by using HockeyApp; perform root cause analysis using Azure Time Series Insights
+      - TODO
+
+
+
+
