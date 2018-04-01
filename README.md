@@ -185,8 +185,42 @@ Read data; change data; set metadata on a storage container; store data using bl
 
 **Implement Azure SQL Databases**
    - Choose the appropriate database tier and performance level; configure and perform point in time recovery; enable geo-replication; import and export data and schema; scale Azure SQL databases; manage elastic pools, including DTUs and eDTUs; manage limits and resource governor; implement Azure SQL Data Sync; implement graph database functionality in Azure SQL; design multi-tenant applications; secure and encrypt data; manage data integrity; enable metrics and diagnostics logs for monitoring; use adaptive query processing to improve query performance; implement sharding and elastic tools; implement SQL Server Stretch Database
-      - TODO
-
+      - Azure SQL Database Documentation: https://docs.microsoft.com/en-us/azure/sql-database/
+      - Choose a cloud SQL Server option: Azure SQL (PaaS) Database or SQL Server on Azure VMs (IaaS): https://docs.microsoft.com/en-us/azure/sql-database/sql-database-paas-vs-sql-server-iaas
+      - Azure SQL Database Point in Time Restore: https://azure.microsoft.com/en-gb/blog/azure-sql-database-point-in-time-restore/
+      - Recover an Azure SQL database using automated database backups: https://docs.microsoft.com/en-us/azure/sql-database/sql-database-recovery-using-backups
+      - Builder Day: Doing a Point-in-Time Restore in Azure SQL DB: https://www.brentozar.com/archive/2017/06/builder-day-point-time-restore-azure-sql-db/
+      - Overview: Failover groups and active geo-replication: https://docs.microsoft.com/en-us/azure/sql-database/sql-database-geo-replication-overview
+      - Configure active geo-replication for Azure SQL Database in the Azure portal and initiate failover: https://docs.microsoft.com/en-us/azure/sql-database/sql-database-geo-replication-portal
+      - Designing highly available services using Azure SQL Database: https://docs.microsoft.com/en-us/azure/sql-database/sql-database-designing-cloud-solutions-for-disaster-recovery
+      - Import and export data from SQL Server and Azure SQL Database: https://docs.microsoft.com/en-us/sql/relational-databases/import-export/overview-import-export
+      - Export an Azure SQL database to a BACPAC file: https://docs.microsoft.com/en-us/azure/sql-database/sql-database-export
+      - Import a BACPAC file to a new Azure SQL Database: https://docs.microsoft.com/en-us/azure/sql-database/sql-database-import
+      - SQL Server database migration to Azure SQL Database: https://docs.microsoft.com/en-us/azure/sql-database/sql-database-cloud-migrate
+      - Scaling out with Azure SQL Database: https://docs.microsoft.com/en-us/azure/sql-database/sql-database-elastic-scale-introduction
+      - Azure SQL Database dynamically scale-up or scale-down: https://azure.microsoft.com/en-gb/resources/videos/azure-sql-database-dynamically-scale-up-or-scale-down/
+      - Azure SQL Database resource limits: https://docs.microsoft.com/en-us/azure/sql-database/sql-database-resource-limits
+      - Graph processing with SQL Server and Azure SQL Database: https://docs.microsoft.com/en-us/sql/relational-databases/graphs/sql-graph-overview
+      - How to configure a new multi-tenant application: https://docs.microsoft.com/en-us/azure/active-directory/application-dev-setup-multi-tenant-app
+      - New multi-tenant patterns for building SaaS applications on SQL Database: https://azure.microsoft.com/en-gb/blog/new-multi-tenant-patterns-for-building-saas-applications-on-sql-database/
+      -  Securing your SQL Database: https://docs.microsoft.com/en-us/azure/sql-database/sql-database-security-overview
+      - Transparent data encryption for SQL Database and Data Warehouse: https://docs.microsoft.com/en-us/sql/relational-databases/security/encryption/transparent-data-encryption-azure-sql
+      - Secure your Azure SQL Database: https://docs.microsoft.com/en-us/azure/sql-database/sql-database-security-tutorial
+      - Data Integrity in Azure SQL Database: https://azure.microsoft.com/en-gb/blog/data-integrity-in-azure-sql-database/
+      - Azure SQL Database Data Integrity Checks: https://blobeater.blog/2017/10/04/azure-sql-database-data-integrity-checks/
+      - Data Integrity in Azure SQL Database: https://odetocloud.com/2017/10/03/data-integrity-azure-sql-database/
+      - Azure SQL Database metrics and diagnostics logging: https://docs.microsoft.com/en-us/azure/sql-database/sql-database-metrics-diag-logging
+      - Collect and consume log data from your Azure resources: https://docs.microsoft.com/en-us/azure/monitoring-and-diagnostics/monitoring-overview-of-diagnostic-logs
+      - Monitoring database performance in Azure SQL Database: https://docs.microsoft.com/en-us/azure/sql-database/sql-database-single-database-monitor
+      - Adaptive query processing in SQL databases: https://docs.microsoft.com/en-us/sql/relational-databases/performance/adaptive-query-processing
+      - Enhancing query performance with Adaptive Query Processing in SQL Server 2017: https://blogs.technet.microsoft.com/dataplatforminsider/2017/09/28/enhancing-query-performance-with-adaptive-query-processing-in-sql-server-2017/
+      - Adaptive query processing in SQL databases: https://docs.microsoft.com/en-us/sql/relational-databases/performance/adaptive-query-processing
+      - Get started with Elastic Database Tools: https://docs.microsoft.com/en-us/azure/sql-database/sql-database-elastic-scale-get-started
+      - Adding a shard using Elastic Database tools: https://docs.microsoft.com/en-us/azure/sql-database/sql-database-elastic-scale-add-a-shard
+      - SQL Server Stretch Database Documentation: https://docs.microsoft.com/en-us/azure/sql-server-stretch-database/
+      - Stretch Database: https://docs.microsoft.com/en-us/sql/sql-server/stretch-database/stretch-database
+      
+      
 **Implement Azure Cosmos DB**
    -  Choose a Cosmos DB API surface; create Cosmo DB API databases and collections; query documents; run Cosmos DB queries; create Graph API databases; execute GraphDB queries; implement MongoDB database; manage scaling of Cosmos DB, including managing partitioning, consistency, and RU/m; manage multiple regions; implement stored procedures; implement JavaScript within Cosmos DB; access Cosmos DB from REST interface; manage Cosmos DB security
       - TODO
