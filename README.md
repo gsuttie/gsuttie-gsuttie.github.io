@@ -395,11 +395,47 @@ Create a Service Fabric application; build an Actors-based service; add a web fr
       
  -  Design and implement Third Party Platform as a Service (PaaS)
 Design and implement Third Party Platform as a Service (PaaS)": Implement Cloud Foundry; implement OpenShift; provision applications by using Azure Quickstart Templates; build applications that leverage Azure Marketplace solutions and services; implement solutions that use Azure Bot Service; create Azure Managed Applications; implement Docker Swarm applications; implement Kubernetes applications
-      - TODO
+
+      - Cloud Foundry on Azure: https://docs.microsoft.com/en-us/azure/virtual-machines/linux/cloudfoundry-get-started
+      - Cloud Foundry on Azure(2): https://docs.microsoft.com/en-us/azure/cloudfoundry/
+      - Deploy your first app to Cloud Foundry on Microsoft Azure: https://docs.microsoft.com/en-us/azure/virtual-machines/linux/cloudfoundry-deploy-your-first-app
+      - OpenShift on Azure: https://docs.microsoft.com/en-us/azure/openshift/
+      - Deploy OpenShift Container Platform in Azure: https://docs.microsoft.com/en-us/azure/virtual-machines/linux/openshift-container-platform
+      - Azure Quickstart Templates: https://azure.microsoft.com/en-gb/resources/templates/
+      - Azure Marketplace and AppSource publisher guide: https://docs.microsoft.com/en-us/azure/marketplace/marketplace-publishers-guide
+      - Managed Applications are now Generally Available in the Azure Marketplace: https://azure.microsoft.com/en-us/blog/managed-applications-are-now-generally-available-in-the-azure-marketplace/
+      - Announcing Terraform availability in the Azure Marketplace: https://azure.microsoft.com/en-gb/blog/announcing-terraform-availability-in-the-azure-marketplace/
+      - What is Azure Marketplace?: https://azuremarketplace.microsoft.com/en-us/about
+      - Azure Managed Applications: https://azure.microsoft.com/en-gb/blog/azure-managed-applications/
+      - Azure Bot Service: https://azure.microsoft.com/en-gb/services/bot-service/
+      - About Bot Service: https://docs.microsoft.com/en-us/azure/bot-service/bot-service-overview-introduction
+      - Create a new swarm on Microsoft Azure in Docker Cloud: https://docs.docker.com/docker-cloud/cloud-swarm/create-cloud-swarm-azure/
+      - Azure Container Service with DC/OS and Swarm Documentation: https://docs.microsoft.com/en-us/azure/container-service/dcos-swarm/
+      - Deploy Docker Swarm cluster: https://docs.microsoft.com/en-us/azure/container-service/dcos-swarm/container-service-swarm-walkthrough
+      - Container management with Docker Swarm: https://docs.microsoft.com/en-us/azure/container-service/dcos-swarm/container-service-docker-swarm
+      - Introduction to Azure Container Service (AKS) preview: https://docs.microsoft.com/en-us/azure/aks/intro-kubernetes
+      - Kubernetes on Azure: https://azure.microsoft.com/en-gb/services/container-service/kubernetes/
+      - Deploy using Kubernetes to Azure Container Service: https://docs.microsoft.com/en-us/vsts/build-release/apps/cd/azure/deploy-container-kubernetes?view=vsts
+      
 
    - Design and Implement DevOps
 Instrument an application with telemetry; discover application performance issues by using Application Insights; deploy Visual Studio Team Services with Continuous integration (CI) and Continuous development (CD); deploy CI/CD with third party platform tools (Jenkins, GitHub, Chef, Puppet; TeamCity); implement mobile DevOps by using HockeyApp; perform root cause analysis using Azure Time Series Insights
-      - TODO
+
+      - What is Application Insights?: https://docs.microsoft.com/en-us/azure/application-insights/app-insights-overview
+      - Telemetry – Application Instrumentation CSF Blog: https://azure.microsoft.com/en-us/blog/telemetry-application-instrumentation-csf-blog/
+      - Separating telemetry from Development, Test, and Production: https://docs.microsoft.com/en-us/azure/application-insights/app-insights-separate-resources
+      - Continuous Integration and Delivery: https://www.visualstudio.com/team-services/continuous-integration/
+      - CI/CD for Azure Web Apps: https://azure.microsoft.com/en-gb/solutions/architecture/vsts-continuous-integration-and-continuous-deployment-for-azure-web-apps/
+      - CI/CD for Containers: https://azure.microsoft.com/en-gb/solutions/architecture/cicd-for-containers/
+      - CI/CD for Azure VMs: https://azure.microsoft.com/en-gb/solutions/architecture/cicd-for-azure-vms/
+      - Devops for Mobile using HockeyApp: https://azure.microsoft.com/en-gb/services/hockeyapp/
+      - Mobile DevOps? DevOps? What’s the Difference?: https://hockeyapp.net/best-practices/mobile-devops-devops-whats-the-difference.html
+      - Root cause analysis and time exploration updates to Azure Time Series Insights: https://azure.microsoft.com/en-gb/blog/root-cause-analysis-and-time-exploration-updates-to-azure-time-series-insights/
+      - Time Series Insights: https://azure.microsoft.com/en-gb/services/time-series-insights/
+      
+      
+  This has been created so that you can make edits nd keep this information as up to date as possible.
+      
 
 
 
