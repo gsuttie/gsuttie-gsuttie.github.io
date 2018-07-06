@@ -113,7 +113,7 @@ https://docs.microsoft.com/en-us/azure/virtual-machines/windows/infrastructure-e
 
    -  Create and manage custom images and formulas; configure a lab to include policies and procedures; configure cost management; secure access to labs; use environments in a lab;
 
-      -  Create a custom image from a VM: https://docs.microsoft.com/en-us/azure/devtest-lab/devtest-lab-create-custom-image-from-vm-using-portalComparing custom images and formulas in DevTest Labs: https://docs.microsoft.com/en-us/azure/devtest-lab/devtest-lab-comparing-vm-base-image-typesCreate a custom image from a VHD file: https://docs.microsoft.com/en-us/azure/devtest-lab/devtest-lab-create-template
+      -  Create a custom image from a VM: https://docs.microsoft.com/en-us/azure/devtest-lab/devtest-lab-create-custom-image-from-vm-using-portal Comparing custom images and formulas in DevTest Labs: https://docs.microsoft.com/en-us/azure/devtest-lab/devtest-lab-comparing-vm-base-image-types Create a custom image from a VHD file: https://docs.microsoft.com/en-us/azure/devtest-lab/devtest-lab-create-template
 Configure Azure Marketplace image settings in Azure DevTest Labs: https://docs.microsoft.com/en-us/azure/devtest-lab/devtest-lab-configure-marketplace-images
 
       -  Manage Azure DevTest Labs formulas: https://docs.microsoft.com/en-us/azure/devtest-lab/devtest-lab-manage-formulas
